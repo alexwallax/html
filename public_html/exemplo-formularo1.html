@@ -14,7 +14,7 @@
                         <label for="nome">Nome:</label>
                     </td>
                     <td>
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome aqui" required autofocus>
                     </td>
                 </tr>
                 <tr>
@@ -22,9 +22,34 @@
                         <label for="endereco"> Endereço: </label>
                     </td>
                     <td>
-                        <input type="text" name="endereco" id="endereco">  
+                        <input type="text" name="endereco" id="endereco" >  
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade</label>
+                    </td>
+                    <td>
+                        <select name="cidade" id="cidade">
+                            <option disabled selected>Escolha a cidade</option>
+
+                            <optgroup label="Rio Grande do Norte">
+                            <option value="natal">Natal</option>
+                            <option value="mossoro">Mossoró</option>                                
+                            </optgroup>
+                            <optgroup label="Paraiba">
+                             <option value="jampa">João Pessoa</option>
+                            <option value="campina">Campina Grande</option>                               
+                            </optgroup>
+                            <optgroup label="Pernanbuco">
+                            <option value="recife">Recife</option>
+                            <option value="petrolina">Petrolina</option>                                
+                            </optgroup>
+
+                        </select>
+                    </td>
+                </tr>
+                
                 <tr>
                     <td>
                         <label for="sexo"> sexo </label>
@@ -83,10 +108,25 @@
                         <input type="time" name="hora_agendada" id="hora_agendada"> 
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <label for="susgestao">Susgestão: </label>
+                    </td>
+                    <td>
+                        <textarea name="susgestao" id="susgestao" maxlength="5" rows="5" cols="20" style="resize: none"></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir" onclick="alert('botão de autodestrução!!!')">
+                    </td>
+                </tr>
             </table>
+            
         </form>
-        
-        
-        
+
     </body>
 </html>
