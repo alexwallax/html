@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lider</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    
+    </head>
+    <body>
+        <form>
+                <div align="center">
+                    <h2> Eleição para lider da turma  </h2> 
+                    <h3>Preencha os campos</h3>
+                    <label for="nome">
+                        Nome:
+                    </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <br>
+                <div align="center">
+                    <label for="email"> Email:</label>
+
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <div align="center" >
+                    <label for="tel"> Telefone:</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <br>           
+                <div align="center">
+                    <label for="nascimento">Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                
+                <br>
+                <div align="center">
+                    <input type="submit" value="Cadastrar">
+                </div>    
+                
+        <div align="center">
+            
+            <h3> Escolha seu candidato</h3>
+            <label><input type="radio" name="candidato" value="tiririca"><img src="ti.png" height="40"></label>
+            <br>
+            <label><input type="radio" name="candidato" value="chaves"><img src="ch.png" height="50"></label>
+            <br>
+            <label><input type="radio" name="candidato" value="mister"><img src="mbe.png" height="50"></label>
+        </div>  
+        
+        <div align="center">
+            <h3>Escolha a Categoria</h3>
+            <select name="Categoria" id="Categoria">
+                <option disabled selected>Escolha a Categoria</option>
+                <option value="Tiririca">Lider</option>
+                <option value="Chaves">Vice-líder</option>
+                <option value="Chaves">Secretário</option>
+                <option value="Chaves">Humorista</option>
+            </select>
+        </div>
+                <br>
+                <div align="center">
+                    <input type="submit" value="Votar">
+                </div>     
+        </form>
+    </body>
+</html>
