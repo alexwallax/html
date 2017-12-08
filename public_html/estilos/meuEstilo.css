@@ -1,0 +1,70 @@
+body{
+    
+    background-image: url(../img/ch.png);
+    background-size: 100% 100%;
+    color: red;
+}
+input, textArea, select {
+    
+    color: blue;
+    border-bottom-color: black;
+}
+
+select {
+   
+   border: 5px solid red;
+   border-radius: 25px;
+   font-style: oblique;
+}
+
+#endereco {
+    color: black;
+    background-image: image;
+    font-style: italic;
+    font-family: fantasy;
+}
+.sexo {
+   
+    color: purple;
+    font-weight: bold;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    font-family: fantasy;
+}
+h2 {
+    border: 2px solid red;
+    border-radius: 25px;
+    text-decoration: line-through;
+}
+h3 {
+    text-decoration: underline;
+}
+
+.bordar-estilizada {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(55, 42, 0)
+}
+table {
+    margin: 0 auto;
+}
+
+.fonte-estilizada {
+    font-family: "comic sans ms";
+    font-size: 18px;
+    color: chartreuse;
+}
+
+.borda-arredondada {
+    border-radius: 0px 5px 10px 25px;
+}
+.borda-arredondada2 {
+    border-radius: 5px 25px;
+}
+textArea {
+    background-image: url(../img/senac.png);
+    
+}

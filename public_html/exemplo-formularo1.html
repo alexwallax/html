@@ -4,9 +4,15 @@
     <head>
         <title>Exemplo Formulario</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/meuEstilo.css">
     </head>
     <body>
+ 
+        <h1>TEXTO DECORATION</h1>
+        <h2>TEXTO DECORATION</h2>
+        <h3>TEXTO DECORATION</h3>
+        <h4>TEXTO DECORATION</h4>
+        
         <form>
             <table>
                 <tr>
@@ -21,8 +27,8 @@
                     <td>
                         <label for="endereco"> Endereço: </label>
                     </td>
-                    <td>
-                        <input type="text" name="endereco" id="endereco" >  
+                    <td >
+                        <input class="borda-arredondada2" type="text" name="endereco" id="endereco" >  
                     </td>
                 </tr>
                 <tr>
@@ -54,7 +60,7 @@
                     <td>
                         <label for="sexo"> sexo </label>
                     </td>
-                    <td>
+                    <td class="sexo">
                         <label><input type="radio" name="sexo" value="masculino" checked>Masculino </label>
                         <label><input type="radio" name="sexo" value="feminino" >Feminino </label>  
                         <label> <input type="radio" name="sexo" value="outros" >Outros </label>
@@ -105,7 +111,7 @@
                         <label for="hora_agendada"> Hora_agendada </label>
                     </td>
                     <td>
-                        <input type="time" name="hora_agendada" id="hora_agendada"> 
+                        <input  class="sexo" type="time" name="hora_agendada" id="hora_agendada"> 
                     </td>
                 </tr>
                 <tr>
@@ -113,13 +119,13 @@
                         <label for="susgestao">Susgestão: </label>
                     </td>
                     <td>
-                        <textarea name="susgestao" id="susgestao" maxlength="5" rows="5" cols="20" style="resize: none"></textarea>
+                        <textarea class="bordar-estilizada borda-arredondada"  name="susgestao" id="susgestao" maxlength="5" rows="5" cols="20" style="resize: none"></textarea>
                     </td>
                 </tr>
                 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="Enviar">
+                        <input class="fonte-estilizada" type="submit" value="Enviar">
                         <input type="reset" value="Limpar">
                         <input type="button" value="Exibir" onclick="alert('botão de autodestrução!!!')">
                     </td>
