@@ -4,11 +4,39 @@
         <title>Trabalhe Conosco</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .cabecalho{
+                border: 1px solid;
+                background: #5858FA;
+                color: white;
+            }  
+            .borda {
+                border: 1px solid;
+                padding: 15px;
+            }
+        </style>
     </head>
     <body>
         <form>
-            <div>
-                
+            <div class="cabecalho" id="Trabalho" align="center">
+                <h2>Trabalhe Conosco</h2>
+            </div>
+            <div class="borda" id="cadastro" align="left">
+                <label for="cadastro"><h2>Cadastro</h2></label>
+                <p>   <label id="nome">Nome:</label></p>
+                <input style="text" name="nome" size="50"> 
+               
+                <p>    <label id="email" name="email">Email:</label></p>
+                <input style="text" name="email" size="50">                
+               
+                <p>    <label id="endereco" name="endereco">Endereco</label> </p>
+                <input style="text" name="endereco" size="50">                
+               
+                <p>    <label id="tel" name="telefone">Telefone:</label> </p>
+                <input style="text" name="tel" size="25">
+               
+                <p> <label id="nascimento" name="nascimento">Data de Nascimento:</label></p>
+                <input type="date" name="nascimento">
             </div>
         </form>
     </body>
