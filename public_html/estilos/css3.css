@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    background: yellowgreen;
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+}
+#cabecalho {
+    background: #5858FA;
+    height: 100px;
+    float: top;
+}
+#corpo {
+    background: red;
+    height: 600px;   
+}
+#menuLateral {
+    background: aqua;
+    height: 600px;
+    float: left;
+}
+#conteudoLateral {
+    background: brown;
+    height: 600px;
+    float: right;
+}
+#rodape {
+    background: cornflowerblue;
+
+    height: 100px;
+    float: bottom;
+}
+
