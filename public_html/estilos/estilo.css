@@ -16,19 +16,19 @@
     }    
     #div1 {
         background-color: lightblue;
-        width: 33.3%;
+        width: 33%;
         height: 300px; 
         float: left;
     }
     #div2 {
         background-color: lightgrey;     
-        width: 33.3%;
+        width: 34%;
         height: 300px;
         float: left;
     }
     #div3 {
         background-color: blueviolet;
-        width: 33.3%;
+        width: 33%;
         height: 300px;
         float: left;
     }
