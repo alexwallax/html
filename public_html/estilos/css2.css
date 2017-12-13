@@ -2,37 +2,64 @@
     margin: 0px;
     padding: 0px;
 }
+.espaco {
+    padding: 15px;
+}
+.texto1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.texto2 {
+    
+    font-size: 25px;
+    padding: 130px;
+    color: #0069d9;
+}
 #container {
-    background: antiquewhite;
     margin: 0 auto;
     width: 700px;
     height: 800px;
 }
 #cabecalho {
-    background: #5858FA;
+    background: linear-gradient(blue, #ffffff);
     width: 700px;
     height: 100px;
     float: top;
 }
+
 #corpo {
-    background: red;
+   
     width: 700px;
     height: 600px;   
 }
 #menuLateral {
-    background: aqua;
+    
     width: 200px;
     height: 600px;
     float: left;
 }
 #conteudoLateral {
-    background: brown;
+
     width: 500px;
     height: 600px;
     float: right;
 }
+#lateral01 {
+    
+    width: 500px;
+    height: 300px;
+    float: top;
+}
+#lateral02 {
+   
+    width: 500px;
+    height: 300px;
+    float: bottom;
+}
 #rodape {
-    background: cornflowerblue;
+    background: linear-gradient(#ffffff, blue);
     width: 700px;
     height: 100px;
     float: bottom;
